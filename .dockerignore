@@ -1,0 +1,11 @@
+### Git ###
+.git
+.gitignore
+.github
+
+### Project ###
+README.md
+demo
+
+### Docker ###
+docker-compose.yml
