@@ -1,11 +1,34 @@
-### Git ###
-.git
-.gitignore
-.github
+##############################################################
+#                                                            #
+# Following files/directories are excluded from docker image #
+#                                                            #
+##############################################################
 
-### Project ###
-README.md
-demo
+### Dependencies ###
+node_modules
+
+### Git, GitHub workflows ###
+.git
+.github
+.gitignore
+
+### Environment variables ###
+.env
+.env.example
 
 ### Docker ###
 docker-compose.yml
+docker-compose.yaml
+
+### Gitpod ###
+.gitpod.yaml
+.gitpod.yml
+
+### Docs/README ###
+README.md
+
+### Production build directory ###
+build
+
+### Demo images ###
+demo
