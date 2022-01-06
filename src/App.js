@@ -13,7 +13,9 @@ function App() {
     selected: {}
   });
   
-  const apiurl = "http://www.omdbapi.com/?apikey=624641c5";
+  const API_KEY = process.env.REACT_APP_API_KEY;
+
+  const apiurl = `http://www.omdbapi.com/?apikey=${API_KEY}`;
   
   const search = (e) => {
     if(e.key === "Enter") {
