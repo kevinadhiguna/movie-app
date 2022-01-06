@@ -5,6 +5,6 @@ services:
     build: .
     container_name: movie-app_ctr
     environment:
-      REACT_APP_API_KEY: 714973g0
+      REACT_APP_API_KEY: ${REACT_APP_API_KEY}
     ports:
       - 3000:3000
