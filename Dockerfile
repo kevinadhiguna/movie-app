@@ -7,7 +7,8 @@ COPY yarn.lock .
 
 RUN yarn --frozen-lockfile
 
-COPY . .
+COPY public/ public/
+COPY src/ src/
 
 RUN yarn build
 
