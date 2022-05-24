@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "check": "prettier --check \"./src/**.js\""
+    "check": "prettier --check \"./src/**.js\"",
+    "format": "prettier --format \"./src/**.js\""
   },
   "eslintConfig": {
     "extends": "react-app"
